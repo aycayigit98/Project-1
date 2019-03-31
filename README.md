@@ -48,5 +48,23 @@ PART B:
 
 PART C:
 
+%{
+        #include<stdio.h>
+%}
 
+%%
+[a-zA-Z]                printf("LETTER");
+[0-9]                   printf("NUMBER");
+%%
+
+int yywrap()
+{
+return 0;
+}
+
+int main()
+{
+printf("Enter something");
+yylex();
+}
 
