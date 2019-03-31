@@ -45,9 +45,6 @@ Backus-Naur Form (BNF)
 
 PART B:
 
-
-PART C:
-
 %{
         #include<stdio.h>
 %}
@@ -67,4 +64,7 @@ int main()
 printf("Enter something");
 yylex();
 }
+
+PART C:
+
 
