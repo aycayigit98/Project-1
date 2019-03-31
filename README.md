@@ -4,7 +4,7 @@ Assignment 1 for Programming Language Course
 Project 1: Lexical Analyzer
 Course: Programming Languages
 
-20150807010  Gizem Ünlü
+20150807010     Gizem Ünlü
 20160808051	Ayça Yiğit
 
 
