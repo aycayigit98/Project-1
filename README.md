@@ -65,7 +65,9 @@ printf("Enter something");
 yylex();
 }
 
+
 PART C:
+
 %{
 #include<stdio.h>
 #include<string.h>
