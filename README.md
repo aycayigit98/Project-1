@@ -1,15 +1,15 @@
 # Project-1
-##Assignment 1 for Programming Language Course
+## Assignment 1 for Programming Language Course
 
-##Project 1: Lexical Analyzer
-##Course: Programming Languages
+## Project 1: Lexical Analyzer
+## Course: Programming Languages
 
 20150807010     Gizem Ünlü
 20160808051	Ayça Yiğit
 
 
 
-##PART A:
+## PART A:
 We decided to call our language simply “MyLang”. Down below are the list of definitions which are going to have their place in the language.
 
 DIGIT			[ 0-9 ]
@@ -30,7 +30,7 @@ OPERATOR		“ + ” | ” - ” | ” * ” | ” / ” | ” ^ ” | ” % ” 
 COMMENT		“^_^”
 OTHER			“{” | “}” | “(” | “)” | “[” | “]” | “=” | “;” | “:” | “?” | “.” | “,” 
 
-###Backus-Naur Form (BNF)
+### Backus-Naur Form (BNF)
 <digit> ::= 0…9
 <integer> ::= <digit> | <digit><integer>
 <expression op> ::= + | -
@@ -43,7 +43,7 @@ OTHER			“{” | “}” | “(” | “)” | “[” | “]” | “=” | �
 <expression> ::= <term> | <identifier> <expression op> <mult>
 
 
-##PART B:
+## PART B:
 
 ```bash
 %{
@@ -67,7 +67,7 @@ yylex();
 }
 ```
 
-##PART C:
+## PART C:
 
 ```bash
 %{
